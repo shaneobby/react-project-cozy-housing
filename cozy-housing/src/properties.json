@@ -2,14 +2,22 @@
     "properties": [
         {
             "id": "prop1",
-            "type": "House",
-            "bedrooms": 3,
-            "price": 750000,
+            "type": "Hotel",
+            "bedrooms": 4,
+            "price": 400000,
             "tenure": "Freehold",
-            "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
-            "location": "Petts Wood Road, Petts Wood, Orpington BR5",
-            "pictures": ["images/prop1pic1small.jpg"],
-            "url": "properties/prop1.html",
+            "description": "Blending neighborhood charm with modern design, Radisson Blu Hotel, London Bloomsbury is your stylish retreat in central London. A short walk from Tottenham Court Road and Covent Garden, we offer contemporary spaces to work, meet, or unwind, moments from the British Museum. Elegant rooms and suites provide a peaceful escape, featuring premium bedding and Urban Apothecary toiletries, with spaces designed for both relaxation and work. Guests can enjoy our chic lounge areas for informal meetings or quiet focus time. ",
+            "location": "9-13 Bloomsbury Street, Nr Covent Garden, Camden, London, WC1B 3QD",
+            "postCode": "WC1B 3QD",
+            "pictures": [
+                "/src/images/prop1/1.jpg",
+                "/src/images/prop1/2.jpg",
+                "/src/images/prop1/3.jpg",
+                "/src/images/prop1/4.jpg",
+                "/src/images/prop1/5.jpg",
+                "/src/images/prop1/6.jpg",
+                "/src/images/prop1/7.png"
+            ],
             "added": {
                 "month": "October",
                 "day": 12,
@@ -19,13 +27,21 @@
         {
             "id": "prop2",
             "type": "Flat",
-            "bedrooms": 2,
-            "price": 399995,
+            "bedrooms": 5,
+            "price": 200000,
             "tenure": "Freehold",
-            "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-            "location": "Crofton Road Orpington BR6",
-            "pictures": [ "images/prop2pic1small.jpg" ],
-            "url": "properties/prop2.html",
+            "description": "The self-contained pet friendly apartments at Residence Inn by Marriott London Kensington offers complimentary WiFi in the public areas and a chic separate lounge area with a flat-screen TV and on-demand movies. Boasting contemporary styling, the apartments are just a 3-minute walk from Kensington High Street.",
+            "location": "181 - 183 Warwick Road, Kensington and Chelsea, London, W14 8PU",
+            "postCode": "W14 8PU",
+            "pictures": [
+                "/src/images/prop2/1.jpg",
+                "/src/images/prop2/2.jpg",
+                "/src/images/prop2/3.jpg",
+                "/src/images/prop2/4.jpg",
+                "/src/images/prop2/5.jpg",
+                "/src/images/prop2/6.jpg",
+                "/src/images/prop2/7.png"
+            ],
             "added": {
                 "month": "September",
                 "day": 14,
@@ -34,88 +50,123 @@
         },
         {
             "id": "prop3",
-			"type":"Flat",
-            "bedrooms":2,
-			"price":399995,
-			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
+            "type": "Flat",
+            "bedrooms": 2,
+            "price": 180000,
+            "tenure": "Freehold",
+            "description": "Staybridge Suites aims to ensure a guest’s comfort as soon as they enter the bright, contemporary lobby, which is adjacent to a comfy lounge with fireplace. Each modern suite or studio features a small kitchen, private bathroom and a TV.",
+            "location": "100 Vauxhall Walk, Lambeth, London, SE11 5AL",
+            "postCode": "SE11 5AL",
             "pictures": [
-                "/images/prop1/1.jpg",
-                "/images/prop1/2.png",
-                "/images/prop1/3.img",
-                "/images/prop1/2.jpg"
+                "/src/images/prop3/1.jpg",
+                "/src/images/prop3/2.jpg",
+                "/src/images/prop3/3.jpg",
+                "/src/images/prop3/4.jpg",
+                "/src/images/prop3/5.jpg",
+                "/src/images/prop3/6.jpg",
+                "/src/images/prop3/7.png"
             ],
-            "url": "properties/prop2.html",
             "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
+                "month": "June",
+                "day": 10,
+                "year": 2023
             }
         },
         {
-            "id":"prop4",
-			"type":"Flat",
-            "bedrooms":2,
-			"price":399995,
-			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"pictures": ["images/prop2pic1small.jpg"],
-			"url":"properties/prop2.html",
+            "id": "prop4",
+            "type": "Hotel",
+            "bedrooms": 4,
+            "price": 300000,
+            "tenure": "Freehold",
+            "description": "Featuring large windows and hardwood floors, the Native Kings Wardrobe, St Pauls have separate bedrooms and luxury bathrooms. The spacious living areas have sofas and a TV. The fitted kitchens at Kings Wardrobe have an oven, microwave and refrigerator, and kitchenware is provided. There is also a dining area, and laundry facilities are available.",
+            "location": "53-55 Carter Lane, City of London, London, EC4V 5AF",
+            "postCode": "EC4V 5AF",
+            "pictures": [
+                "/src/images/prop4/1.jpg",
+                "/src/images/prop4/2.jpg",
+                "/src/images/prop4/3.jpg",
+                "/src/images/prop4/4.jpg",
+                "/src/images/prop4/5.jpg",
+                "/src/images/prop4/6.jpg",
+                "/src/images/prop4/7.png"
+            ],
             "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
+                "month": "July",
+                "day": 7,
+                "year": 2023
             }
         },
         {
-            "id":"prop5",
-			"type":"Flat",
-            "bedrooms":2,
-			"price":399995,
-			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"pictures":["images/prop2pic1small.jpg"],
-			"url":"properties/prop2.html",
+            "id": "prop5",
+            "type": "Villa",
+            "bedrooms": 4,
+            "price": 500000,
+            "tenure": "Freehold",
+            "description": "Classic English House in London offers a three-bedroom villa with a living room. Family rooms provide ample space for relaxation. Guests enjoy free WiFi, a terrace, and a garden. The property includes a fully equipped kitchen, washing machine, and a fireplace.",
+            "location": "6 Roupell Street, Lambeth, London, SE1 8SP",
+            "postCode": "SE1 8SP",
+            "pictures": [
+                "/src/images/prop5/1.jpg",
+                "/src/images/prop5/2.jpg",
+                "/src/images/prop5/3.jpg",
+                "/src/images/prop5/4.jpg",
+                "/src/images/prop5/5.jpg",
+                "/src/images/prop5/6.jpg",
+                "/src/images/prop5/7.png"
+            ],
             "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
+                "month": "March",
+                "day": 13,
+                "year": 2024
             }
         },
         {
-            "id":"prop6",
-			"type":"Flat",
-            "bedrooms":2,
-			"price":399995,
-			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"pictures":["images/prop2pic1small.jpg"],
-			"url":"properties/prop2.html",
+            "id": "prop6",
+            "type": "Villa",
+            "bedrooms": 14,
+            "price": 500000,
+            "tenure": "Freehold",
+            "description": "he Ridge London in London offers a spacious, recently renovated villa with five bedrooms and five bathrooms. Guests enjoy a sun terrace, garden, and open-air bath. The property features a spa and wellness center with a sauna and hot tub. Additional amenities include a lounge, outdoor fireplace, and beauty services.",
+            "location": "Fremantle Road, London, DA17 6ES",
+            "postCode": "DA17 6ES",
+            "pictures": [
+                "/src/images/prop6/1.jpg",
+                "/src/images/prop6/2.jpg",
+                "/src/images/prop6/3.jpg",
+                "/src/images/prop6/4.jpg",
+                "/src/images/prop6/5.jpg",
+                "/src/images/prop6/6.jpg",
+                "/src/images/prop6/7.png"
+            ],
             "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
+                "month": "February",
+                "day": 14,
+                "year": 2025
             }
         },
         {
-            "id":"prop7",
-			"type":"Flat",
-            "bedrooms":2,
-			"price":399995,
-			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"pictures":["images/prop2pic1small.jpg"],
-			"url":"properties/prop2.html",
+            "id": "prop7",
+            "type": "Villa",
+            "bedrooms": 4,
+            "price": 420000,
+            "tenure": "Freehold",
+            "description": "Heritage Look, Luxury Feel - London Family House in London offers a villa with five bedrooms and six bathrooms. The property features a spacious living room and family rooms, ensuring comfort for all guests. Guests enjoy free WiFi, air-conditioning, and a fully equipped kitchen. Additional facilities include a garden, outdoor play area, and an electric vehicle charging station. Free on-site private parking is available.",
+            "location": "70 Blake Hall Road, London, E11 2QW",
+            "postCode": "E11 2QW",
+            "pictures": [
+                "/src/images/prop7/1.jpg",
+                "/src/images/prop7/2.jpg",
+                "/src/images/prop7/3.jpg",
+                "/src/images/prop7/4.jpg",
+                "/src/images/prop7/5.jpg",
+                "/src/images/prop7/6.jpg",
+                "/src/images/prop7/7.png"
+            ],
             "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
+                "month": "June",
+                "day": 27,
+                "year": 2025
             }
         }
-        
-]}
+    ]
+}

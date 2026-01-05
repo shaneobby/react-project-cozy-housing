@@ -1,0 +1,108 @@
+/* Footer Styles */
+
+footer {
+    background-color: var(--yale-blue);
+    color: #ffffff;
+    max-width: 760px;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Flex container for sections */
+
+footer > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/* Each footer section */
+
+footer div > div {
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Headings */
+
+footer h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+/* Paragraphs */
+
+footer p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #f0f0f0;
+}
+
+/* Links list */
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+footer ul li a:hover {
+    color: var(--jade-green);
+}
+
+footer div > div div a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+footer div > div div a:hover {
+    color: var(--bright-sky);
+}
+
+footer i.fa {
+    font-size: 1rem;
+}
+
+footer div > div p {
+    margin-top: 12px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+    footer {
+        max-width: 100%;
+    }
+    footer > div {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 100%;
+    }
+
+    footer div > div {
+        width: 100%;
+    }
+}

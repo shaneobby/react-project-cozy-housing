@@ -22,9 +22,9 @@ function Footer() {
         <div>
             <h4>Find us at</h4>
             <div>
-                <a href="#"><i class="fa">&#xf082;</i> Facebook</a>
-                <a href="#"><i class="fa">&#xf16d;</i> Instagram</a>
-                <a href="#"><i class="fa">&#xf003;</i> Email</a>
+                <a href="#"><i className="fa">&#xf082;</i> Facebook</a>
+                <a href="#"><i className="fa">&#xf16d;</i> Instagram</a>
+                <a href="#"><i className="fa">&#xf003;</i> Email</a>
             </div>
             <p>
                 &copy;2006 Cozy Housing. All rights reserved.
