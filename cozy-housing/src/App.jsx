@@ -1,6 +1,6 @@
 import './App.css'
 import propertyInfo from './properties.json'
-import { HashRouter, Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import Footer from './components/footer'
 import Header from './components/header'
 import Home from './pages/home'
@@ -9,7 +9,7 @@ import ExpandedProperty from './pages/ExpandedProperty'
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename="/react-project-cozy-housing/">
       <Header />
       <Routes>
         <Route
@@ -22,7 +22,7 @@ function App() {
         />
       </Routes>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

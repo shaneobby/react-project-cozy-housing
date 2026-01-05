@@ -156,7 +156,7 @@ const Home = ({ propertyInfo }) => {
                         <div className="property-image">
                             {property.pictures && property.pictures.length > 0 && (
                                 <img
-                                    src={property.pictures[0]}
+                                    src={import.meta.env.BASE_URL + property.pictures[0]}
                                     alt={property.type} 
                                     style={{ width: '100%' ,height: '300px', overflowClipMargin: 'content-box', overflow: 'clip' }}
                                     />

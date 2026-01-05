@@ -24,9 +24,9 @@ function ExpandedProperty({ propertyInfo = [] }) {
     const imagesInGallery = property.pictures.slice(0, -1);
 
     const galleryImages = imagesInGallery.map(src => ({
-        original: src,
-        thumbnail: src,
-        fullscreen: src
+        original: import.meta.env.BASE_URL + src,
+        thumbnail: import.meta.env.BASE_URL + src,
+        fullscreen: import.meta.env.BASE_URL + src
     }));
 
     return (
@@ -106,7 +106,7 @@ function ExpandedProperty({ propertyInfo = [] }) {
 
                 {activeTab === 'floorPlan' && (
                     <div className="tab-panel">
-                        <img src={property.pictures.slice(-1)} alt="floor plan" />
+                        <img src={import.meta.env.BASE_URL + property.pictures.slice(-1)} alt="floor plan" />
                     </div>
                 )}
 
