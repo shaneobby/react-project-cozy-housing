@@ -11,12 +11,12 @@
             "postCode": "WC1B 3QD",
             "pictures": [
                 "/images/prop1/1.jpg",
-                "/public/images/prop1/2.jpg",
-                "/public/images/prop1/3.jpg",
-                "/public/images/prop1/4.jpg",
-                "/public/images/prop1/5.jpg",
-                "/public/images/prop1/6.jpg",
-                "/public/images/prop1/7.png"
+                "/images/prop1/2.jpg",
+                "/images/prop1/3.jpg",
+                "/images/prop1/4.jpg",
+                "/images/prop1/5.jpg",
+                "/images/prop1/6.jpg",
+                "/images/prop1/7.png"
             ],
             "added": {
                 "month": "October",
