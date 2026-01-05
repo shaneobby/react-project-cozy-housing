@@ -61,6 +61,7 @@
 
 .tabs-header {
     display: flex;
+    justify-content: center;
     gap: 8px;
     flex-wrap: wrap;
     border-bottom: 2px solid #e5e9ec;
@@ -149,3 +150,9 @@
         font-size: 1.4rem;
     }
 }
+@media (min-width: 1200px) {
+    .expanded-container {
+        max-width: 768px;
+    }
+}
+

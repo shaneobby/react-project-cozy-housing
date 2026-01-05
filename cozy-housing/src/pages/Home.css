@@ -1,8 +1,8 @@
 
 .home-container {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    margin: 0 auto;
     align-items: center;
     gap: 32px;
     background-color: var(--ghost-white);
@@ -92,11 +92,23 @@
     }
 
 }
+@media (min-width: 1200px) {
+    .property-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .home-container{
+        max-width: 1040px;
+    }
+    .property-list {
+        max-width: 1040px;
+    }
+}
 
 .search-form {
-    width: 100%;
+    width: 90%;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 5%;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(11, 79, 108, 0.12);
     display: flex;

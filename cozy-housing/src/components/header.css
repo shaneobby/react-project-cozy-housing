@@ -66,3 +66,8 @@ header nav ul li a:hover {
         padding: 8px 16px;
     }
 }
+@media (min-width: 1200px) {
+header {
+        max-width: 1200px;
+    }
+}
